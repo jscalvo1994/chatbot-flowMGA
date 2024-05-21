@@ -1,0 +1,8 @@
+.messageForm {
+    display: flex;
+    gap: 10px;
+}
+
+.input[name="message"] {
+    flex: 1;
+}

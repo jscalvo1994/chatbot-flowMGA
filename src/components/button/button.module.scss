@@ -1,0 +1,21 @@
+.container {
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    font-weight: bold;
+    &:hover:not(:disabled) {
+        background-color: var(--text-primary);
+        color: var(--background-color);
+    }
+    &:active:not(:disabled) {
+        transform: scale(0.95);
+    }
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://V-ctor-Alfonso-Orellano-Calamb-s-s-workspace-o1msuh.us-east-1.xata.sh/db/flow-mga",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
